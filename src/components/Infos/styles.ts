@@ -13,6 +13,14 @@ export const Container = styled.div`
         gap: 40px;
     }
 
+    img{
+    margin-top: -20px;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    border: 0.7rem solid rgba(255, 255, 255, 0.1);
+    }
+
     #Place{
         display: flex;
         flex-direction: row;
@@ -68,11 +76,7 @@ export const repButton = styled.button`
 `
 
 export const imageCard = styled.p`
-    margin-top: -20px;
-    width: 175px;
-    height: 175px;
-    border-radius: 50%;
-    border: 0.7rem solid rgba(255, 255, 255, 0.1);
+
 `
 
 export const SubText = styled.p`
