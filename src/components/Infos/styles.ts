@@ -6,7 +6,7 @@ export const Container = styled.div`
     flex-direction: column;
     width: auto;
     height: 620px;
-    border: 5px solid purple;
+    background-color: #212333;
     border-radius: 10px;
     gap: 25px;
     @media (max-width: 768px) {
@@ -42,6 +42,27 @@ export const Container = styled.div`
         align-items: center;
         justify-content: center;
         border-radius: 10px;
+    }
+
+    a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 50px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #BF40BF;
+    border-radius: 10px;
+    border: none;
+    opacity: 0.8;
+    transition: 0.5s;
+    @media (max-width: 768px) {
+    font-size: 1rem;
+    }
+    }
+    a:hover{
+        opacity: 10;
     }
 
 `

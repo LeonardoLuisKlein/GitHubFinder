@@ -21,7 +21,7 @@ export const Infos = ({login, avatar_url, location, following, followers}: UserP
           <C.SubText>{followers}</C.SubText>
         </div>
       </div>
-      <C.repButton>Ir para o repositório</C.repButton>
+      <a>Ir para o repositório</a>
     </C.Container>
   )
 }
