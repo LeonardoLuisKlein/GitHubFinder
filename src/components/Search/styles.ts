@@ -7,7 +7,7 @@ export const Container = styled.div`
     flex-direction: column;
     width: auto;
     height: 300px;
-    border: 5px solid purple;
+    background-color: #212333;
     border-radius: 10px;
     @media (max-width: 768px) {
     gap: 30px;
@@ -30,16 +30,28 @@ export const Container = styled.div`
     }
 
     button{
-    background-color: purple;
+    background-color: #BF40BF;
     height: 50px;
     width: 50px;
     border-radius: 10px;
     border: none;
+    opacity: 0.8;
+    transition: 0.5s;
     @media (max-width: 768px) {
         margin-right: 15px;
         height: 50px;
         width: 50px;
     }
+    }
+
+    button:hover{
+        opacity: 10;
+    }
+
+    svg{
+        width: 25px;
+        height: 25px;
+        color: white;
     }
 `
 
@@ -59,15 +71,6 @@ export const Subtitle = styled.p`
     @media (max-width: 768px) {
     font-size: 1rem;
     }
-`
-
-export const SearchBar = styled.input`
-
-
-`
-
-export const SearchButton = styled.button`
-
 `
 
 export const SearchArea = styled.div`
