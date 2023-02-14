@@ -7,9 +7,12 @@ export const Container = styled.div`
 `
 
 export const Area = styled.div`
+    display: flex;
+    flex-direction: column;
     margin: auto;
     max-width: 980px;
     padding: 10px;
+    gap: 40px;
 `
 
 export const Header = styled.h1`
