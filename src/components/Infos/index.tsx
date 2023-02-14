@@ -3,6 +3,9 @@ import React from 'react'
 import { UserProps } from '../../types/user'
 
 export const Infos = ({login, avatar_url, location, following, followers}: UserProps) => {
+
+  const link = `https://github.com/${login}`
+  
   return (
     <C.Container>
       <C.Title>{login}</C.Title>
@@ -21,7 +24,7 @@ export const Infos = ({login, avatar_url, location, following, followers}: UserP
           <C.SubText>{followers}</C.SubText>
         </div>
       </div>
-      <a>Ir para o repositório</a>
+      <a href={link}>Ir para o repositório</a>
     </C.Container>
   )
 }
