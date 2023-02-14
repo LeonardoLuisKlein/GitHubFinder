@@ -12,6 +12,35 @@ export const Container = styled.div`
     @media (max-width: 768px) {
     gap: 30px;
     }
+
+    input{
+        flex: 1;
+        border: 0px;
+        background: #1d1e27;
+        outline: 0;
+        color: #FFF;
+        font-size: 18px;
+        height: 50px;
+        width: 30vw;
+        border-radius: 10px;
+        @media (max-width: 768px) {
+        margin-left: 15px;
+        width: 70%;
+    }
+    }
+
+    button{
+    background-color: purple;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    border: none;
+    @media (max-width: 768px) {
+        margin-right: 15px;
+        height: 50px;
+        width: 50px;
+    }
+    }
 `
 
 export const Title = styled.h2`
@@ -33,33 +62,12 @@ export const Subtitle = styled.p`
 `
 
 export const SearchBar = styled.input`
-        flex: 1;
-        border: 0px;
-        background: #1d1e27;
-        outline: 0;
-        color: #FFF;
-        font-size: 18px;
-        height: 50px;
-        width: 30vw;
-        border-radius: 10px;
-        @media (max-width: 768px) {
-        margin-left: 15px;
-        width: 70%;
-    }
+
 
 `
 
 export const SearchButton = styled.button`
-    background-color: purple;
-    height: 50px;
-    width: 50px;
-    border-radius: 10px;
-    border: none;
-    @media (max-width: 768px) {
-        margin-right: 15px;
-        height: 50px;
-        width: 50px;
-    }
+
 `
 
 export const SearchArea = styled.div`
