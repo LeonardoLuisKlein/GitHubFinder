@@ -6,11 +6,11 @@ export const Container = styled.div`
     justify-content: center;
     flex-direction: column;
     width: auto;
-    height: 230px;
+    height: 260px;
     background-color: #212333;
     border-radius: 10px;
     @media (max-width: 768px) {
-    gap: 30px;
+    gap: 10px;
     }
 
     input{

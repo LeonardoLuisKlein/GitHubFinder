@@ -13,6 +13,9 @@ export const Area = styled.div`
     max-width: 980px;
     padding: 10px;
     gap: 50px;
+    @media (max-width: 768px) {
+    gap: 30px;
+    }
 `
 
 export const Header = styled.h1`
