@@ -6,7 +6,7 @@ export const Container = styled.div`
     justify-content: center;
     flex-direction: column;
     width: auto;
-    height: 300px;
+    height: 230px;
     background-color: #212333;
     border-radius: 10px;
     @media (max-width: 768px) {
