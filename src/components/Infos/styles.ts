@@ -25,6 +25,9 @@ export const Container = styled.div`
         display: flex;
         flex-direction: row;
         gap: 15px;
+        @media (max-width: 768px) {
+            gap: 5px;
+    }
     }
 
     #Folow{
@@ -65,6 +68,20 @@ export const Container = styled.div`
         opacity: 10;
     }
 
+    span{
+        font-size: 2rem;
+        color: #FFFFFF;
+        margin-top: -20px;
+    }
+
+    svg{
+        width: 25px;
+        height: 25px;
+        @media (max-width: 768px) {
+            display: none;
+    }
+    }
+
 `
 
 export const Title = styled.h2`
@@ -101,6 +118,7 @@ export const imageCard = styled.p`
 `
 
 export const SubText = styled.p`
+    margin-top: -1px;
     font-size: 1.1rem;
     color: #FFFFFF ;
 `
